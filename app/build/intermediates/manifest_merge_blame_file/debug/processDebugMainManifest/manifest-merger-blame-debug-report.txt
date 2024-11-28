@@ -1,0 +1,215 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myzametki1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="21" /> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\syaga\.gradle\caches\transforms-4\0c3fc1a38a51c4d80f91ec87fda75a45\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
+15-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\syaga\.gradle\caches\transforms-4\0c3fc1a38a51c4d80f91ec87fda75a45\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:22-76
+16
+17    <permission
+17-->[androidx.core:core:1.15.0] C:\Users\syaga\.gradle\caches\transforms-4\cecad0c3d26589c00f381f6a0e382fcd\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.myzametki1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.15.0] C:\Users\syaga\.gradle\caches\transforms-4\cecad0c3d26589c00f381f6a0e382fcd\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.15.0] C:\Users\syaga\.gradle\caches\transforms-4\cecad0c3d26589c00f381f6a0e382fcd\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.myzametki1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.15.0] C:\Users\syaga\.gradle\caches\transforms-4\cecad0c3d26589c00f381f6a0e382fcd\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.15.0] C:\Users\syaga\.gradle\caches\transforms-4\cecad0c3d26589c00f381f6a0e382fcd\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:7:5-32:19
+24        android:allowBackup="true"
+24-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:8:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.15.0] C:\Users\syaga\.gradle\caches\transforms-4\cecad0c3d26589c00f381f6a0e382fcd\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:9:9-65
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:fullBackupContent="@xml/backup_rules"
+29-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:10:9-54
+30        android:icon="@drawable/images"
+30-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:11:9-40
+31        android:label="Заметки"
+31-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:12:9-32
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:13:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:14:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.MyZametki1" >
+35-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:15:9-48
+36        <activity
+36-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:17:9-19:40
+37            android:name="com.example.myzametki1.read"
+37-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:18:13-33
+38            android:exported="false" />
+38-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:19:13-37
+39        <activity
+39-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:20:9-22:40
+40            android:name="com.example.myzametki1.addreport"
+40-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:21:13-38
+41            android:exported="false" />
+41-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:22:13-37
+42        <activity
+42-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:23:9-31:20
+43            android:name="com.example.myzametki1.MainActivity"
+43-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:24:13-41
+44            android:exported="true" >
+44-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:25:13-36
+45            <intent-filter>
+45-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:26:13-30:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:27:17-69
+46-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:27:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:29:17-77
+48-->C:\Users\syaga\Desktop\Zametki2(changed)\app\src\main\AndroidManifest.xml:29:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <service
+52-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\syaga\.gradle\caches\transforms-4\0c3fc1a38a51c4d80f91ec87fda75a45\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
+53            android:name="com.google.firebase.components.ComponentDiscoveryService"
+53-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\syaga\.gradle\caches\transforms-4\0c3fc1a38a51c4d80f91ec87fda75a45\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:15:13-84
+54            android:directBootAware="true"
+54-->[com.google.firebase:firebase-common:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\0a736be407887bd19ca558c131e598b6\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+55            android:exported="false" >
+55-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\syaga\.gradle\caches\transforms-4\0c3fc1a38a51c4d80f91ec87fda75a45\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:16:13-37
+56            <meta-data
+56-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\syaga\.gradle\caches\transforms-4\0c3fc1a38a51c4d80f91ec87fda75a45\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
+57                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+57-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\syaga\.gradle\caches\transforms-4\0c3fc1a38a51c4d80f91ec87fda75a45\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\syaga\.gradle\caches\transforms-4\0c3fc1a38a51c4d80f91ec87fda75a45\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\syaga\.gradle\caches\transforms-4\0c3fc1a38a51c4d80f91ec87fda75a45\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
+60                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+60-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\syaga\.gradle\caches\transforms-4\0c3fc1a38a51c4d80f91ec87fda75a45\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\syaga\.gradle\caches\transforms-4\0c3fc1a38a51c4d80f91ec87fda75a45\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\7ebd8dde21d5b993bf6a2cc3f2a62e51\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+63                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+63-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\7ebd8dde21d5b993bf6a2cc3f2a62e51\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\7ebd8dde21d5b993bf6a2cc3f2a62e51\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+65            <meta-data
+65-->[com.google.firebase:firebase-common:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\0a736be407887bd19ca558c131e598b6\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+66                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+66-->[com.google.firebase:firebase-common:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\0a736be407887bd19ca558c131e598b6\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-common:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\0a736be407887bd19ca558c131e598b6\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+68        </service>
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\syaga\.gradle\caches\transforms-4\3026937246a65082bca26162dc5e8a5e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\syaga\.gradle\caches\transforms-4\3026937246a65082bca26162dc5e8a5e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\syaga\.gradle\caches\transforms-4\3026937246a65082bca26162dc5e8a5e\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\syaga\.gradle\caches\transforms-4\3026937246a65082bca26162dc5e8a5e\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+74
+75        <provider
+75-->[com.google.firebase:firebase-common:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\0a736be407887bd19ca558c131e598b6\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+76            android:name="com.google.firebase.provider.FirebaseInitProvider"
+76-->[com.google.firebase:firebase-common:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\0a736be407887bd19ca558c131e598b6\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+77            android:authorities="com.example.myzametki1.firebaseinitprovider"
+77-->[com.google.firebase:firebase-common:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\0a736be407887bd19ca558c131e598b6\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+78            android:directBootAware="true"
+78-->[com.google.firebase:firebase-common:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\0a736be407887bd19ca558c131e598b6\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+79            android:exported="false"
+79-->[com.google.firebase:firebase-common:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\0a736be407887bd19ca558c131e598b6\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+80            android:initOrder="100" />
+80-->[com.google.firebase:firebase-common:21.0.0] C:\Users\syaga\.gradle\caches\transforms-4\0a736be407887bd19ca558c131e598b6\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+81
+82        <meta-data
+82-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\syaga\.gradle\caches\transforms-4\b6d8df21e06e28841f0921f755a73fb1\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+83            android:name="com.google.android.gms.version"
+83-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\syaga\.gradle\caches\transforms-4\b6d8df21e06e28841f0921f755a73fb1\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+84            android:value="@integer/google_play_services_version" />
+84-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\syaga\.gradle\caches\transforms-4\b6d8df21e06e28841f0921f755a73fb1\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\syaga\.gradle\caches\transforms-4\1ea411b1285b2061470566e125be6aaf\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\syaga\.gradle\caches\transforms-4\1ea411b1285b2061470566e125be6aaf\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+88            android:authorities="com.example.myzametki1.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.3.0] C:\Users\syaga\.gradle\caches\transforms-4\1ea411b1285b2061470566e125be6aaf\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.3.0] C:\Users\syaga\.gradle\caches\transforms-4\1ea411b1285b2061470566e125be6aaf\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.3.0] C:\Users\syaga\.gradle\caches\transforms-4\1ea411b1285b2061470566e125be6aaf\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.3.0] C:\Users\syaga\.gradle\caches\transforms-4\1ea411b1285b2061470566e125be6aaf\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.3.0] C:\Users\syaga\.gradle\caches\transforms-4\1ea411b1285b2061470566e125be6aaf\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\syaga\.gradle\caches\transforms-4\3047e476b84c8ef7566537f6c1ea5c69\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\syaga\.gradle\caches\transforms-4\3047e476b84c8ef7566537f6c1ea5c69\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\syaga\.gradle\caches\transforms-4\3047e476b84c8ef7566537f6c1ea5c69\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+98                android:value="androidx.startup" />
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+99        </provider>
+100
+101        <receiver
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+102            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+103            android:directBootAware="false"
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+104            android:enabled="true"
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+105            android:exported="true"
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+106            android:permission="android.permission.DUMP" >
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+108                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+111                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+114                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+117                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\syaga\.gradle\caches\transforms-4\8ebd4038aab959bf787bf72c3f1b59e4\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+118            </intent-filter>
+119        </receiver>
+120    </application>
+121
+122</manifest>
